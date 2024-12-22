@@ -84,24 +84,12 @@ export default function Navbar() {
          </div>
 
          {/* SOCIAL */}
-         <div className='hidden md:flex gap-4 w-1/3'>
+         <div className='hidden md:flex gap-32 w-1/3'>
             <Link href="https://github.com/wifi1999/">
-               <Image src="/github.png" alt="" width={24} height={24} />
+               <Image src="/github.png" alt="" width={40} height={40} />
             </Link>
-            <Link href="/">
-               <Image src="/dribbble.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="/">
-               <Image src="/instagram.png" alt="" width={24} height={24} />
-            </Link> 
-            <Link href="/">
-               <Image src="/facebook.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="/">
-               <Image src="/pinterest.png" alt="" width={24} height={24} />
-            </Link>
-            <Link href="/">
-               <Image src="/linkedin.png" alt="" width={24} height={24} />
+            <Link href="https://www.linkedin.com/in/zhili0918/">
+               <Image src="/linkedin.png" alt="" width={40} height={40} />
             </Link>
          </div>
          <div className='md:hidden'>

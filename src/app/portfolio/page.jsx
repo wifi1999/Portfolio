@@ -8,34 +8,34 @@ const items = [
    {
       id: 1,
       color: "from-red-300 to-blue-300",
-      title: "React Commerce",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-   //  img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "React Social-Media App",
+      desc: "A scalable social media platform using React, Node.js, and MongoDB. Enabled real-time user interactions, post creation, and profile management with a focus on performance and user experience.",
+      img: "/KusiSocial.png",
+      link: "https://github.com/wifi1999/KusiSocial",
    },
    {
       id: 2,
       color: "from-blue-300 to-violet-300",
-      title: "Next.js Medium Blog",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-   //  img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "React Clothes-Shopping App",
+      desc: "A user-friendly shopping platform using React, Node.js, and MongoDB. Implemented product browsing, cart management, and secure checkout with a focus on performance and seamless user experience.",
+      img: "/KusiShopping.png",
+      link: "https://github.com/wifi1999/KusiShopping",
    },
    {
       id: 3,
       color: "from-violet-300 to-purple-300",
-      title: "Vanilla Book App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-   //  img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      link: "https://lama.dev",
+      title: "React Hotel-Booking App",
+      desc: "A responsive hotel booking platform using React, Node.js, and MongoDB. Enabled hotel search, booking management, and secure payment integration, focusing on ease of use and performance..",
+      img: "/KusiBooking.png",
+      link: "https://github.com/wifi1999/KusiBooking",
    },
    {
       id: 4,
       color: "from-purple-300 to-red-300",
-      title: "Spotify Music App",
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-   //  img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      link: "https://lama.dev",
+      title: "React Note-Taker App",
+      desc: "An efficient note-taking app using React, Node.js, and MongoDB. Implemented features for creating, editing, and storing notes with a focus on usability and data persistence.",
+      img: "/KusiNote.png",
+      link: "https://github.com/wifi1999/KusiNote",
    },
 ];
 
@@ -54,7 +54,7 @@ const PortfolioPage = () => {
       >
       <div className="h-[600vh] relative" ref={ref}>
          <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center">
-            My Works
+            My Projects
          </div>
          <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden">
             <motion.div style={{ x }} className="flex">
@@ -75,7 +75,7 @@ const PortfolioPage = () => {
                      {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Demo</button>
+                     <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Source Code</button>
                   </Link>
                   </div>
                </div>
@@ -100,7 +100,7 @@ const PortfolioPage = () => {
             </defs>
             <text fill="#000">
                <textPath xlinkHref="#circlePath" className="text-xl">
-                  Front-end Developer and UI Designer
+                  Frontend Engineer and UI Developer
                </textPath>
             </text>
             </motion.svg>
